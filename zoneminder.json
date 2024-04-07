@@ -1,7 +1,7 @@
 {
     "name": "Zoneminder",
-    "release": "13.1-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-zoneminder.git",
+    "release": "13.3-RELEASE",
+    "artifact": "https://github.com/SerDroide/iocage-plugin-zoneminder.git",
     "official": false,
     "properties": {
         "dhcp": 1
@@ -10,7 +10,7 @@
         "zoneminder",
         "fcgiwrap",
         "nginx",
-        "mysql57-server"
+        "mysql80-server"
     ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
